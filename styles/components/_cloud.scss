@@ -1,0 +1,9 @@
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+
+  & img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+}

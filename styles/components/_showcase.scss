@@ -1,4 +1,5 @@
 .showcase {
+  z-index: -10;
   height: 400px;
   background-color: var(--primary-color);
   color: white;
@@ -21,15 +22,35 @@
   &::before,
   &::after {
     content: "";
+    z-index: -1;
     position: absolute;
     height: 100px;
-    bottom: -70px;
+    bottom: -15px;
     right: 0;
     left: 0;
     background: #fff;
-    // background: red;
-    transform: skewY(-3deg);
+    transform: skewY(-30deg);
   }
+
+  // &::before {
+  //   content: "";
+  //   background-color: red;
+  //   height: 10px;
+  //   position: absolute;
+  //   right: 0;
+  //   left: 0;
+  //   top: 70px;
+  // }
+  // &::after {
+  //   content: "";
+  //   background-color: red;
+  //   height: 10px;
+  //   position: absolute;
+  //   right: 0;
+  //   left: 0;
+  //   top: 60px;
+  //   border-radius: 30px;
+  // }
 }
 
 .showcase-form {
