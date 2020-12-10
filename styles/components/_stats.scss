@@ -1,6 +1,7 @@
 .stats {
   padding-top: 100px;
-  // z-index: 120;
+  z-index: 120;
+  position: relative;
 
   .stats-heading {
     max-width: 500px;
