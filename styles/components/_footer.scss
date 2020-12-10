@@ -1,0 +1,26 @@
+footer {
+  & .grid-3 {
+    // justify-content: start;
+    align-items: flex-start;
+  }
+  & a {
+    color: #fff;
+  }
+
+  //   & p {
+  //     margin: 0;
+  //     padding: 0;
+  //   }
+  & h1 {
+    margin: 0;
+  }
+  & .social {
+    align-self: center;
+  }
+  & i {
+    margin: 0 10px;
+  }
+  //   & .social {
+  //     justify-self: end;
+  //   }
+}
